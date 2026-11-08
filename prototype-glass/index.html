@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EchoSub · Liquid Glass 交互原型</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light">
+  <div id="app">
+    <!-- 模拟的 macOS 桌面：固定 1512×945 逻辑尺寸，按可用空间等比缩放 -->
+    <main id="stage-wrap" class="stage-wrap">
+      <div id="stage" class="stage">
+        <div class="wallpaper" id="wallpaper"></div>
+        <div class="desk-click-layer" id="deskClick"></div>
+        <header id="menubar" class="menubar"></header>
+        <div id="desktop" class="desktop"></div>
+        <nav id="dock" class="dock"></nav>
+        <div id="menu-layer" class="menu-layer"></div>
+        <div id="toast-layer" class="toast-layer"></div>
+      </div>
+    </main>
+    <!-- 原型控制面板（不属于产品界面） -->
+    <aside id="proto" class="proto"></aside>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="icons.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

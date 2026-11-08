@@ -1,0 +1,8 @@
+# Build output
+/build/
+/echosub-mygo
+
+# Earlier prototype superseded by prototype-glass/
+/prototype/
+
+.DS_Store
